@@ -1,0 +1,26 @@
+{
+    "name": "file-saver-ts",
+    "version": "1.0.0",
+    "description": "file-saver-es with esModules and typescript",
+    "main": "dist/file-saver-es/index.js",
+    "types": "dist/types/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "pub": "npm publish"
+    },
+    "preferGlobal": true,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yani4218/file-saver-ts"
+    },
+    "keywords": [
+        "file-saver",
+        "typescript"
+    ],
+    "author": "yani4218@gmail.com",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "~8.9.4",
+        "typescript": "~3.2.2"
+    }
+}
