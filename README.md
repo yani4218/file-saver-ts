@@ -10,6 +10,18 @@ Supported browsers:
 - Firefox
 - Opera
 
+## Run eslint
+
+```PowerShell
+    npm run lint
+```
+
+## Run test
+
+```PowerShell
+    npm run test
+```
+
 ## Getting started
 
 Step 1. Build package.
