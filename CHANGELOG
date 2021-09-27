@@ -1,4 +1,9 @@
 # Unpublished
 
+# v1.0.1
+- Add: Added prettier.
+- Add: Added eslint.
+- Add: Added husky.
+
 # v1.0.0
--Add: Added package.
+- Add: Added packages.

@@ -1,0 +1,17 @@
+{
+  "env": {
+    "es6": true
+  },
+  "parser": "babel-eslint",
+  "ignorePatterns": ["jest.config.js", "./__tests__/**/*"],
+  "rules": {
+    "no-var": "error",
+    "semi": "error",
+    "indent": "off",
+    "no-multi-spaces": "error",
+    "space-in-parens": "error",
+    "no-multiple-empty-lines": "error",
+    "prefer-const": "error",
+    "no-use-before-define": "error"
+  }
+}

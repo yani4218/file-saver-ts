@@ -1,4 +1,4 @@
-# file-saver-es
+# file-saver-ts
 
 Utility for download files, based on TypeScript.
 Supported browsers:
@@ -18,7 +18,7 @@ Step 1. Build package.
     npm run build
 ```
 
-Step 2. Publish package or use npm-link.
+Step 2. Publish package or use npm link.
 
 Step 3. Install package.
 
@@ -31,13 +31,13 @@ Step 4. Added saveFilesAs fuction at youre code:
 Example:
 
 ```typescript
-    import { saveFilesAs } from 'file-saver-ts';
+    import { fileSaveAs } from 'file-saver-ts';
 
     ...
     function test(){
         const blob = new Blob(['Hello world'], {type: 'text/plain'});
         const name = 'hello-world.txt';
 
-        downloadFile(blob, name);
+        fileSaveAs(blob, name);
     }
 ```
