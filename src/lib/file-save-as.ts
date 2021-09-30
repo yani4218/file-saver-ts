@@ -8,9 +8,9 @@ import { safariBlobDownload } from './utils/safari';
  * @param filename  File name.
  */
 export const fileSaveAs = (blob: Blob, filename: string): void => {
-    return isIE()
-        ? msBlobDownload(blob, filename)
-        : isSafari()
-            ? safariBlobDownload(blob, filename)
-            : chromiumBlobDownload(blob, filename);
+  return isIE()
+    ? msBlobDownload(blob, filename)
+    : isSafari()
+    ? safariBlobDownload(blob, filename)
+    : chromiumBlobDownload(blob, filename);
 };

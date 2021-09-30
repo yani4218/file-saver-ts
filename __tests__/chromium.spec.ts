@@ -1,13 +1,13 @@
 import * as chromiumModule from '../src/lib/utils/chromium';
 
 describe('Chromium download', () => {
-    test('call getFileLink function', () => {
-        const blob = new Blob();
-        const spy = jest.spyOn(chromiumModule, 'getFileLink');
-        spy.mockReturnValue(null);
+  test('call getFileLink function', () => {
+    const blob = new Blob();
+    const getFileLinkSpy = jest.spyOn(chromiumModule, 'getFileLink');
+    getFileLinkSpy.mockReturnValue(null);
 
-        chromiumModule.chromiumBlobDownload(blob, 'test');
+    chromiumModule.chromiumBlobDownload(blob, 'test');
 
-        expect(spy).toHaveBeenCalledWith(blob, 'test');
-    });
+    expect(getFileLinkSpy).toHaveBeenCalledWith(blob, 'test');
+  });
 });
