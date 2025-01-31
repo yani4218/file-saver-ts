@@ -1,6 +1,9 @@
 # Unpublished
 
 # v1.0.1
+- Update: Update all deps.
+
+# v1.0.1
 - Add: Added prettier.
 - Add: Added eslint.
 - Add: Added husky.
